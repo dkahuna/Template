@@ -1,19 +1,30 @@
+/* main nav bar*/
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: white;
   }
 
 li {
-    display:  block;
     float: left;
-    padding: 8px;
-    
-    background-color: green;
 }
 
-/* right hand side of nav bar */
+/*  'li' right-hand side of nav bar */
 .rightSided {
     float: right;
+}
+
+/*individual sectors of nav bar */
+li a {
+    display:  block;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+/* effect to change color per link */
+li a:hover {
+    background-color: green;
 }
