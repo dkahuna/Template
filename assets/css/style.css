@@ -1,0 +1,10 @@
+li {
+    display:  block;
+    float: left;
+    background-color: green;
+}
+
+.rightSided {
+    float: right;
+   
+}
