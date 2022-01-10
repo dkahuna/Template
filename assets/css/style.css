@@ -32,12 +32,13 @@ li a {
     display:  block;
     padding: 14px 16px;
     text-align: center;
-    font-size: xx-large;
+    font-size: large;
+    color: black;
 }
 
 /* effect to change color per link */
 li a:hover {
-    background-color: green;
+    background-color: grey;
 }
 
 /* Hero content */
@@ -46,11 +47,11 @@ li a:hover {
     width: 100%;
     height: 70vh;
     background-repeat: no-repeat;
-    position: relative;
 }
 
 .hero-contents {
-	padding-top: 25px;
+	font-size: xx-large;
+    padding-top: 350px;
 	text-align: center;
 	color: white;
 }
