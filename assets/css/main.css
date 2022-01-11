@@ -1,0 +1,36 @@
+/* Nav bar */
+section {
+    display: block;
+    padding: 12px 20px;
+    background-color: whitesmoke;
+}
+
+.rightSide {
+    float: right;
+    font-size: x-large;
+    padding: 12px
+}
+
+.rightSide:hover {
+    background-color: grey;
+}
+
+/*Hero*/
+.heroImage {
+    background: url(../images/hero.png);
+    display: block;
+}
+
+.heroContents {
+    font-size: xx-large;
+    text-align: center;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 40px;
+}
