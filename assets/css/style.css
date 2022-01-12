@@ -94,3 +94,48 @@ nav ul li a:hover {
     padding-left: 70px;
     padding-right: 50px;
 } 
+
+/* Mobile screen */
+@media  (max-width: 960px) {
+    .container_1_article {
+        padding-top: 50px;
+    }
+
+    .container_2_article {
+        padding-top: 50px;
+    }
+
+    .container_1 {
+        display: block;
+    }
+
+    .container_2 {
+        display: block;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-image {
+        width: auto;
+        height: auto;
+    }
+
+    .hero-contents {
+        font-size: small;
+        padding: 50px;
+        text-align: center;
+        color: white;
+    }
+    
+    .signUp {
+        background-color: red;
+        border: none;
+        color: white;
+        padding: 5px;
+        font-size: 20px;
+        border-radius: 20px;
+      }
+}
